@@ -56,25 +56,20 @@ void insertnode (node * & tail ,  int element , int datatoinsert)
 void printnode(node * & tail)                    // printing function / traversing
 {
 
-if(tail==NULL)           // if link-list is empty
-{
+ node* temp = tail;
 
-    cout<<"link-list is empty "<<endl;
-    return;
-}
+    //empty list
+    if(tail == NULL) {
+        cout << "List is Empty "<< endl;
+        return ;
+    }
 
- 
-node * ttt = tail;              //temp variaale for storing data of tail so that we can apply on condition
-cout<<tail->data << " ";        
-tail= tail->next ;
-while(  tail != ttt )            //  until when tail reaches the tail again so it will stop.
- 
-{
-    cout<< tail->data << " " ;
-   tail=  tail->next;
-}
-cout<<endl;
-return;
+    do {
+        cout << tail -> data << " ";
+        tail = tail -> next;
+    } while(tail != temp);
+
+    cout << endl;
 }
 
 
