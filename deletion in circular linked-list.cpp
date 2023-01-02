@@ -18,7 +18,7 @@ public:
 void insertnode(node * & tail , int element, int data)
 {
 
-    if(tail==NULL)
+    if(tail==NULL)                //if link list is empty
     {
 
         cout<<"empty" <<endl;
@@ -29,7 +29,7 @@ void insertnode(node * & tail , int element, int data)
     }
     else{
         node * temp = tail;
-         node * temp2 =  tail;
+         node * temp2 =  tail;                      // variable for checking is the element is exists or not
 
              while ( temp->data != element )
              {
@@ -77,7 +77,7 @@ cout<<endl;
 
 void deletion(node * & tail ,  int element)
 {
-if(tail==NULL)
+if(tail==NULL)                                          //if link-list is empty
 {
 
     cout<<"link- list is empty" <<endl;
@@ -85,10 +85,10 @@ if(tail==NULL)
 }
 
 
-node *prev = tail ;
+node *prev = tail ;                                     //in deletion prev , current wali game 
 node * curr = prev->next;
 
-if(curr ==  prev )
+if(curr ==  prev )                                       // only 1 node is present
 {
     tail=NULL;
     cout<<"now link-list is empty" <<endl;
@@ -97,10 +97,10 @@ if(curr ==  prev )
 
 else
 {
-    while(curr->data != element)
+    while(curr->data != element)           // traversing to find the element  
     {
 
-        prev=curr;
+        prev=curr;                                              // updates them and points them to the next position
         curr=curr->next;
 
 
@@ -108,12 +108,12 @@ else
 
     // found the  element
     prev->next= curr->next;
-  if(curr == tail)
+  if(curr == tail)                        //data to be deleted is at tail so we have to update the tail .
         {
          tail=prev;
         }
 
-    curr->next=NULL;
+    curr->next=NULL;        // deleting current element
     delete curr;
 cout<<"after deleting : " << element<<endl;
 cout<<endl;
