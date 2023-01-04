@@ -1,5 +1,5 @@
 solved some baisc linked-list questions 
-ref :                                                                                           <b> DAY 1 </b>
+ref :                                                                                            DAY 1 
 
 1.   reverse a link-list: 
 https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1?page=1&status[]=solved&category[]=Linked%20List&sortBy=submissions
@@ -24,7 +24,7 @@ https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-
 .................................................................................................................................................................................................
                     
                         
-                                                      <b>  DAY 2 </b>
+                                                                      DAY 2
                                                       
   
   1. Remove duplicate elements in LL: 
@@ -36,3 +36,10 @@ https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-
   https://practice.geeksforgeeks.org/problems/remove-every-kth-node/1?page=1&difficulty[]=0&category[]=Linked%20List&sortBy=submissions.
   
   
+  
+  3. Finding middle element : 
+  https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1?page=1&category[]=Linked%20List&sortBy=submissions
+  
+  
+  4. check if circular list : 
+  https://practice.geeksforgeeks.org/problems/circular-linked-list/1?page=2&category[]=Linked%20List&sortBy=submissions
