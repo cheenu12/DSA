@@ -1,9 +1,14 @@
- 1.  Find length of the LOOP in the LL :
+ 
+ 1. Detect a LOOP in LL : 
+ https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1
+     
+ 
+ 2.  Find length of the LOOP in the LL :
  
  https://practice.geeksforgeeks.org/problems/find-length-of-loop/1                       
  
    
- 2. Remove LOOP in the LL (if exists) : 
+ 3.   Remove LOOP in the LL (if exists) : 
  https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1
  
  
