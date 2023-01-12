@@ -18,3 +18,7 @@
  
 5. Check if the LL is palindrome :
 https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+
+//two ways :  
+1 . using arrays .. insert the LL elements into an array , then check palindrome 
+2.  find middle , reverse after middle , compare both parts (before midd , after middle) 
